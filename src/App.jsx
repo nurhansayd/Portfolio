@@ -7,7 +7,7 @@ import Skills from "./Components/Skills"
 const App = () => {
   return (
     <>
-    <Navbar/>
+    <Navbar  />
     <Hero />
     <Skills/>
     <About/>
