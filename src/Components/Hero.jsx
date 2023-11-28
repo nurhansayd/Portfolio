@@ -1,5 +1,5 @@
 import heroImg from '../assets/undraw2.svg';
-import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin ,FaEnvelope} from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -13,12 +13,16 @@ const Hero = () => {
           <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
             turning ideas into interactive reality
           </p>
+         
           <div className='flex gap-x-4 mt-4'>
             <a href='https://github.com/nurhansayd'  target='_blank'>
               <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
             <a href='https://www.linkedin.com/in/nurhan-sayed-5896a7211/' target='_blank'>
               <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+            </a>
+            <a href='mailto:nurhansaydd@gmail.com' target='_blank'>
+              <FaEnvelope className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
           
           </div>
