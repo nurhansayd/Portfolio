@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='bg-sky-100 py-24' id='hero'>
       <div className='align-element  grid md:grid-cols-2 items-center gap-8'>
         <article>
-          <h5 className='text-4xl font-bold tracking-wider'>Nurhan Sayed</h5>
+          <h5 className='text-4xl font-bold tracking-wider '>Nurhan Sayed</h5>
           <p className='mt-4 text-2xl text-slate-700 capitalize tracking-wide'>
             Front-End Developer
           </p>
